@@ -2,35 +2,38 @@ body {
     font-family: sans-serif;
 }
 
+header {
+   background-color: rgb(200,239,252);
+   border-radius: 10px;
+   padding: 10px;
+}
+
 h1 {
-    text-align: center;
-    font-size: 60px;
+   color: #ff8b03; 
 }
 
-h2{
-    font-size: 40px;
-    background-color: peru;
+footer {
+   background-color: blue;
 }
 
-a {
-    color: black;
-    font-size: 20px;
+footer p {
+   background-color: #ff8b03;
 }
 
-p, img {
-    border: 3px solid peru;
+nav a{
+   border: 5px solid #ff8b03;
+   border-radius: 10px;
 }
 
-p, table {
-    font-size: 20px;
+.htp{
+    border: 4px solid blue ;
+    border-radius: 10px;
 }
 
-table{
-    background-color: lightyellow;
-    text-align: center;
-    border-collapse: collapse;
+main {
+   padding: 20px;
 }
 
-td{
-    border: 1px solid brown;
+h2 {
+   color: blue;
 }
