@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+footer, body {
+    background-color: black;
+}
+
+p {
+    color: orange;
+}
+
+a:hover{
+    box-shadow:10px 15px 5px 0px lightgreen ;
+    transition: all 2s linear;
+}
+
+.social:hover{
+    box-shadow:10px 15px 5px 0px black;
+}
